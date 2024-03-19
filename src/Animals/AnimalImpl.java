@@ -13,7 +13,7 @@ public abstract class AnimalImpl implements Animal {
     protected Type type; //тип животного
     protected Health health; //раненый или нераненый здоровье
     //protected List<Skill> skills; //навыки
-    protected Set<BodyPats> bodyPats; //части тела по порядку, под 0 индексом - голова, под 1 -ноги или лапы
+    protected Set<BodyPats> bodyPats; //части тела - голова, -ноги или лапы
 
     public AnimalImpl(String name, Type type, Size size, NamePlace namePlace, Health health) {
         this.name = name;
